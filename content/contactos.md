@@ -14,7 +14,7 @@ Enviem-nos as vossas perguntas e/ou sugestões para o nosso email:
   subject="Pergunta/Sugestão ao podcast"
   fakebody="Substituir o email por contacto --arroba-- podcastubuntuportugal -ponto- org"
 >}}
-podcast --arroba-- terapiasocial -ponto- pt
+contacto --arroba-- podcastubuntuportugal -ponto- org
 {{< / mail-link >}}
 
 

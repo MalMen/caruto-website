@@ -12,7 +12,7 @@ Enviem-nos as vossas perguntas e/ou sugestões para o nosso email:
   domain="podcastubuntuportugal.org"
   fakemail="podcastubuntuportugal@dispostable.com"
   subject="Pergunta/Sugestão ao podcast"
-  fakebody="Substituir o email por podcast --arroba-- terapiasocial -ponto- pt"
+  fakebody="Substituir o email por contacto --arroba-- podcastubuntuportugal -ponto- org"
 >}}
 podcast --arroba-- terapiasocial -ponto- pt
 {{< / mail-link >}}

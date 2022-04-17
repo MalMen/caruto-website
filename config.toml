@@ -1,0 +1,105 @@
+# set `baseurl` to your root domain
+# if you set it to "/" share icons won't work properly on production
+baseURL = "https://dev.podcastubuntuportugal.org/"  # Include trailing slash
+languageCode = "pt-pt"
+title = "Podcast Ubuntu Portugal"
+author = "Podcast Ubuntu Portugal"
+copyright = "2017, Podcast Ubuntu Portugal"
+# canonifyurls = true
+paginate = 10
+theme = "hugo-pup"
+
+DefaultContentLanguage = "pt"
+[languages]
+  [languages.pt]
+    weight = 1
+
+# [menus]
+# config/_default/menus/menu.xx.toml
+
+[taxonomies]
+categoria = "categorias"
+temporada = "temporadas"
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    hl_Lines = "--"
+    lineNoStart = 1
+    lineNos = true # always set to true # else line numbers won't show at all! even when you toggle them on in the UI
+    lineNumbersInTable = false # toggling this on (i.e to true) or deleting this line will break the code blocks functionality. Will
+    noClasses = false
+    # style = "monokai"
+    tabWidth = 2
+  [markup.goldmark.renderer]
+    hardWraps = false
+    unsafe = true # change to false to disable inclusion of rawHTML and math functions
+    xhtml = false
+
+[params]
+customCSS = ["css/podcast.css"]
+customJS = ["js/custom.js"] # Include custom JS files
+
+author = "Podcast Ubuntu Portugal"
+largeTwitterCard = false # set to true if you want to show a large twitter card image. The default is a small twitter card image
+introDescription = "Um podcast descontraído sobre Ubuntu, a comunidade Ubuntu e tudo o que gira em volta do universo Ubuntu."
+# description = "" # set your site's description here. will be use for home page content meta tags (seo). Alternatively set this description in your homepage content file i.e content/_index.md. Whatever is set in the latter will take precedence
+
+# limit the number of taxonomies links shown on the sidebar of each page by default.
+numberOfTagsShown = 14 # Applies for all other default & custom taxonomies. e.g categories, brands see https://gohugo.io/content-management/taxonomies#what-is-a-taxonomy
+
+# will be used on share >> twitter, facebook, linkedin
+fallBackOgImage = "images/share.png"
+
+ogLocale = "pt_pt"
+
+# sets the maximum number of lines per codeblock. The codeblock will however be scrollable and expandable.
+codeMaxLines = 7
+
+# disable showing line numbers by default. Switch to `true` if you'd rather have them on.
+codeLineNumbers = false
+
+# directory(s) where your articles are located
+mainSections = ["post"] # see config details here https://gohugo.io/functions/where/#mainsections
+
+# center logo on navbar
+centerLogo = false # Set to "true" for centering or "false" for left aligned.
+
+#logo = "logos/logo.png" # recommended 680*100
+
+# Label Non inline images on an article body
+figurePositionShow = false # toggle on or off globally
+# you can toggle this behaviour on or off on per page using the same variable inside your articles frontmatter
+figurePositionLabel = "Figure" # the text before image number e.g Figure 1.0
+
+# Set the collapsed mobile navigation to either appear from the left or the right
+mobileNavigation = "right" # if you prefer right change to 'right'
+
+# some site owners want to decide how they would like their sites to be introduced users. These settings give you as a site owner to decide how the user will view your site for the first time.
+
+# please note that you cannot enforce both modes at the same time. i.e by enforcing one mode, you priotise it over the other (by setting it to true). enforceDarkMode will be commented out
+
+# please also not that mode toggle UI will remain in place. That way, if a user prefers darkmode, they can have their way.
+
+enforceLightMode = false
+# enforceDarkMode = false
+
+# Text for the languages menu.
+languageMenuName = "🌐"
+
+  [params.feed]
+    copyright = "Este trabalho está licenciado com uma Licença Creative Commons - Atribuição 4.0 Internacional - http://creativecommons.org/licenses/by-nc-nd/4.0/" #do not use markdown in this field; it is used in the feed
+    itunes_subtitle = "O podcast em português sobre Ubuntu e a sua comunidade." #no markdown or HTML
+    itunes_author = "Diogo Constantino & Tiago Carrondo" #no markdown or HTML
+    itunes_summary = "Um podcast descontraído sobre Ubuntu, a comunidade Ubuntu e tudo o que gira em volta do universo Ubuntu." # Limited to 4000 characters or less, plain text, no HTML
+    itunes_owner_name = "Podcast Ubuntu Portugal"
+    itunes_owner_email = "contacto@podcastubuntuportugal.org" #contains the e-mail address that will be used to contact the owner of the Podcast for communication specifically about their Podcast on Apple Podcasts. It will not be publicly displayed on Apple Podcasts.
+    itunes_image = "images/thumbnail.png" #fqdn to the image art for your podcast
+    itunes_top_category = "Leisure"
+    itunes_first_sub_category = "Society & Culture"
+    itunes_second_sub_category = "Fiction"
+    language = "pt-pt"
+    explicit = "clean"
+    googleplay_explicit = "No" # This tag can be a Yes or No value.
+    update_period = "weekly" # Possible values: 'hourly', 'daily', 'weekly', 'monthly', or 'yearly'.

@@ -1,0 +1,11 @@
+- item: "gitlab"
+  url: "https://gitlab.com/podcastubuntuportugal"
+- item: 'facebook'
+  url: 'https://www.facebook.com/podcastubuntuportugal'
+- item: 'youtube'
+  url: 'https://www.youtube.com/podcastubuntuportugal'
+- item: 'twitter'
+  url: 'https://twitter.com/podcastubuntupt'
+- item: 'rss'
+  url: 'feed/podcast/index.xml'
+  internal: true

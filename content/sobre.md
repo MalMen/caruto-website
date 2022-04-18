@@ -17,6 +17,8 @@ Um podcast descontraído sobre Ubuntu, a comunidade Ubuntu e tudo o que gira em 
 
 ### &rarr; Miguel
 
+[telegram](https://t.me/per_sonne) |
+[twitter](https://twitter.com/personne_tweets/) |
 
 ### &rarr; Tiago Carrondo
 

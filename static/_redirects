@@ -1,2 +1,2 @@
 # O feed
-/feed/podcast* /podcast/index.xml
+/feed/podcast/* /podcast/index.xml 301

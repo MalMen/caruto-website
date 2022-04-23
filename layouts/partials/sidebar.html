@@ -26,6 +26,7 @@
       </li>
       {{- end }}
     </ul>
+    {{ partial "apoios" . }}
     {{- $numberOfTagsLimit := $.Site.Params.numberOfTagsShown }}
     <!-- See config -->
     {{ range $key, $value := .Site.Taxonomies }}

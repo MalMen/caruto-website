@@ -2,11 +2,8 @@
 <h2 class="mt-4">Apoios</h2>
 <ul class="flex-column">
   {{- range $items }}
-  {{- $url := .url }}
-  {{ $url = absLangURL .url }}
-  {{- end }}
   <li>
-    <a href="{{ $url }}" class="nav-link">{{ .item }}</a>
+    <a href="{{ .url }}" class="nav-link">{{ .item }}</a>
   </li>
   {{- end }}
   {{- partial "mode" . }}

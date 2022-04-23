@@ -18,9 +18,8 @@
     </ul>-->
     <h2 class="mt-4">{{ i18n "recent_posts" }}</h2>
     <ul class="flex-column">
-      {{ range sort (where (where .Site.RegularPages "Type" "in" site.Params.mainSections) ".Params.hidden" "!=" true |
-      first 10)
-      "desc" }}
+      {{ range first 10 (where (where .Site.RegularPages "Type" "in" site.Params.mainSections) ".Params.hidden" "!="
+      true) }}
       <li>
         <a href="{{ .Permalink }}" class="nav-link">{{ if eq .Params.Episode 0 }}#{{.Params.Episode }} {{ end }}{{
           .Title }}</a>

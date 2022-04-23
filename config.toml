@@ -20,6 +20,7 @@ DefaultContentLanguage = "pt"
 [taxonomies]
 categoria = "categorias"
 temporada = "temporadas"
+tag = "tags"
 
 [markup]
   [markup.highlight]

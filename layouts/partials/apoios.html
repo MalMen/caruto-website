@@ -3,12 +3,10 @@
 <ul class="flex-column">
   {{- range $items }}
   {{- $url := .url }}
-  {{- if .internal }}
   {{ $url = absLangURL .url }}
   {{- end }}
   <li>
-    <a href="{{ .Permalink }}" class="nav-link">{{ if eq .Params.Episode 0 }}#{{.Params.Episode }} {{ end }}{{
-      .Title }}</a>
+    <a href="{{ $url }}" class="nav-link">{{ .item }}</a>
   </li>
   {{- end }}
   {{- partial "mode" . }}

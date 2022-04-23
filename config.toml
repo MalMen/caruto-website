@@ -23,7 +23,7 @@ temporada = "temporadas"
 tag = "tags"
 
 [permalinks]
-  '/' = '/:filename/'
+  post = '/:filename/'
 
 [markup]
   [markup.highlight]

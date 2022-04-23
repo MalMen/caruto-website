@@ -22,6 +22,9 @@ categoria = "categorias"
 temporada = "temporadas"
 tag = "tags"
 
+[permalinks]
+  '/' = '/:filename/'
+
 [markup]
   [markup.highlight]
     codeFences = true

@@ -20,6 +20,10 @@ DefaultContentLanguage = "pt"
 [taxonomies]
 categoria = "categorias"
 temporada = "temporadas"
+tag = "tags"
+
+[permalinks]
+  post = '/:filename/'
 
 [markup]
   [markup.highlight]

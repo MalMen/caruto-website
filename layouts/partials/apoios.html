@@ -1,0 +1,9 @@
+{{- $items := .Site.Data.apoios }}
+<h2 class="mt-4">Apoios</h2>
+<ul class="flex-column">
+  {{- range $items }}
+  <li>
+    <a href="{{ .url }}" class="nav-link">{{ .item }}</a>
+  </li>
+  {{- end }}
+</ul>

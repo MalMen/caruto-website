@@ -23,7 +23,7 @@ seasons = ["S01"]
 aliases = ["e206-adiado", "E206-adiado"]
 +++
 
-A publicação deste episódio teve de ser adiada, será publicado num futuro próximo.
+A publicação deste episódio teve de ser adiada. O episódio 206 será publicado num futuro próximo.
 Já sabem: oiçam, subscrevam e partilhem!
 
 * https://eventos.bad.pt/event/iv-jornadas-de-open-source/

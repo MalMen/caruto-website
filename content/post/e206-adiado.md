@@ -6,7 +6,7 @@ podcast_file = "https://media.blubrry.com/ubuntupt/archive.org/download/pup-e206
 podcast_duration = "0:00:35"
 podcast_bytes = "848247"
 author = "Podcast Ubuntu Portugal"
-date = "2022-08-04"
+date = "2022-08-03"
 description = ""
 thumbnail = "images/e206-adiado.png"
 

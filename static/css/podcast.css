@@ -1,10 +1,16 @@
+.button_translucent {
+  background-color: rgba(150, 150, 150, 0.2);
+  color: #888;
+  border: 1px solid transparent;
+}
+
 .podcast-player {
   width: 100%;
 }
 
 /* Hide copyright notice on the footer*/
-#documentTop > footer > div > img,
-#documentTop > footer > div > p {
+#documentTop>footer>div>img,
+#documentTop>footer>div>p {
   display: none;
 }
 

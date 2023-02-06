@@ -7,3 +7,8 @@ if (maildiv !== null) {
   maildiv.href = "mailto:"+fullm+"?subject=Pergunta/Sugestão ao podcast"
   maildiv.text = fullm
 }
+
+function changePlaybackSpeed(audioElementID, playbackSpeed){
+  const audioElement = document.getElementById(audioElementID);
+  audioElement.playbackRate = playbackSpeed;
+};

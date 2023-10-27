@@ -1,5 +1,5 @@
 +++
-author = "Podcast Ubuntu Portugal"
+author = "Caruto de Santinofre"
 +++
 
-Um podcast descontraído sobre Ubuntu, a comunidade Ubuntu e tudo o que gira em volta do universo Ubuntu.
+Um podcast sobre coisas

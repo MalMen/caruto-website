@@ -1,10 +1,10 @@
 # set `baseurl` to your root domain
 # if you set it to "/" share icons won't work properly on production
-baseURL = "https://podcastubuntuportugal.org/"  # Include trailing slash
+baseURL = "https://caruto.pt/"  # Include trailing slash
 languageCode = "pt-pt"
-title = "Podcast Ubuntu Portugal"
-author = "Podcast Ubuntu Portugal"
-copyright = "2017, Podcast Ubuntu Portugal"
+title = "Caruto"
+author = "Caruto"
+copyright = "2023, Caruto"
 # canonifyurls = true
 paginate = 10
 theme = "hugo-pup"
@@ -45,7 +45,7 @@ tag = "tags"
 customCSS = ["css/podcast.css"]
 customJS = ["js/custom.js"] # Include custom JS files
 
-author = "Podcast Ubuntu Portugal"
+author = "Caruto"
 largeTwitterCard = false # set to true if you want to show a large twitter card image. The default is a small twitter card image
 introDescription = "Um podcast descontraído sobre Ubuntu, a comunidade Ubuntu e tudo o que gira em volta do universo Ubuntu."
 # description = "" # set your site's description here. will be use for home page content meta tags (seo). Alternatively set this description in your homepage content file i.e content/_index.md. Whatever is set in the latter will take precedence
@@ -94,15 +94,15 @@ languageMenuName = "🌐"
 
   [params.feed]
     copyright = "Este trabalho está licenciado com uma Licença Creative Commons - Atribuição 4.0 Internacional - http://creativecommons.org/licenses/by-nc-nd/4.0/" #do not use markdown in this field; it is used in the feed
-    itunes_subtitle = "O podcast em português sobre Ubuntu e a sua comunidade." #no markdown or HTML
-    itunes_author = "Diogo Constantino & Tiago Carrondo" #no markdown or HTML
-    itunes_summary = "Um podcast descontraído sobre Ubuntu, a comunidade Ubuntu e tudo o que gira em volta do universo Ubuntu." # Limited to 4000 characters or less, plain text, no HTML
-    itunes_owner_name = "Podcast Ubuntu Portugal"
-    itunes_owner_email = "contacto@podcastubuntuportugal.org" #contains the e-mail address that will be used to contact the owner of the Podcast for communication specifically about their Podcast on Apple Podcasts. It will not be publicly displayed on Apple Podcasts.
+    itunes_subtitle = "O podcast em português sobre coisas." #no markdown or HTML
+    itunes_author = "Sam, Ze e Parkinson" #no markdown or HTML
+    itunes_summary = "Um podcast tudo e nada ao mesmo tempo." # Limited to 4000 characters or less, plain text, no HTML
+    itunes_owner_name = "Caruto"
+    itunes_owner_email = "geral@caruto.pt" #contains the e-mail address that will be used to contact the owner of the Podcast for communication specifically about their Podcast on Apple Podcasts. It will not be publicly displayed on Apple Podcasts.
     itunes_image = "images/thumbnail.png" #fqdn to the image art for your podcast
-    itunes_top_category = "Technology"
-    itunes_first_sub_category = "News"
-    itunes_second_sub_category = "Tech News"
+    itunes_top_category = "Comedy"
+    itunes_first_sub_category = "Comedy Interviews"
+    itunes_second_sub_category = ""
     language = "pt-pt"
     explicit = "clean"
     googleplay_explicit = "No" # This tag can be a Yes or No value.

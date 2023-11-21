@@ -1,0 +1,32 @@
+name: Deploy Hugo to GitHub Pages
+
+on:
+  push:
+    branches:
+      - master  # Set your default branch here
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+      with:
+        submodules: true  # Fetch Hugo themes (if you use submodules)
+
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: 'latest'
+        extended: true
+
+    - name: Build
+      run: hugo --gc --minify --cleanDestinationDir
+
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.DEPLOY_TOKEN }}
+        publish_dir: ./public
+        destination_branch: gh-pages  # Specify the branch to which you want to deploy

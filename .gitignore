@@ -1,6 +1,3 @@
 resources/
 public/
 .hugo*
-
-# Except for the CNAME file
-!public/CNAME
